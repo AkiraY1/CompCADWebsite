@@ -3,4 +3,7 @@
 Preview: http://buckymaler.com/global/
 
 To-do:
-"-" Edit website
+
+Add live preview for this repo
+
+Edit website to for CompCAD
