@@ -1,9 +1,4 @@
 # CompCADWebsite
 
-Preview: http://buckymaler.com/global/
-
-To-do:
-
-Add live preview for this repo
-
-Edit website to for CompCAD
+Original Preview: http://buckymaler.com/global/
+Report Preview: https://compcadpreview.netlify.app/
