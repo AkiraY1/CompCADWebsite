@@ -1,5 +1,3 @@
 # CompCADWebsite
 
-Original Preview: http://buckymaler.com/global/
-
-Repo Preview: https://compcadpreview.netlify.app/
+Preview: https://compcadpreview.netlify.app/
