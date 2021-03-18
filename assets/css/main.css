@@ -73,9 +73,11 @@ body{background-color:#ffffff;font-size:14px;line-height:1.6;font-family:"Montse
 .header--nav-toggle{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:50px;height:50px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;cursor:pointer}
 .header--nav-toggle span,.header--nav-toggle::before,.header--nav-toggle::after{content:"";position:relative;width:16px;height:2px;background-color:rgb(0, 0, 0)}
 .header--nav-toggle::before{bottom:5px;width:23px}
-.header--nav-toggle::after{top:5px;width:23px}.header--cta{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);padding:0 20px;line-height:30px;text-decoration:none;color:rgb(0, 0, 0);font-weight:700;text-transform:uppercase;background-color:#0f33ff;border:none;opacity:0;visibility:hidden;-webkit-transition:opacity .4s ease-in-out,visibility 0s .4s;transition:opacity .4s ease-in-out,visibility 0s .4s}
+.header--nav-toggle::after{top:5px;width:23px}
+.header--cta{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%, -50%);transform:translate(-50%, -50%);padding:0 20px;line-height:30px;text-decoration:none;color:rgb(0, 0, 0);font-weight:700;text-transform:uppercase;background-color:#0f33ff;border:none;opacity:0;visibility:hidden;-webkit-transition:opacity .4s ease-in-out,visibility 0s .4s;transition:opacity .4s ease-in-out,visibility 0s .4s}
 .header--cta:focus{outline:none}
-.header--cta.is-active{opacity:1;visibility:visible;-webkit-transition:opacity .4s ease-in-out .4s;transition:opacity .4s ease-in-out .4s}@media (max-width: 767px){.header--cta{display:none}}
+.header--cta.is-active{opacity:1;visibility:visible;-webkit-transition:opacity .4s ease-in-out .4s;transition:opacity .4s ease-in-out .4s}
+@media (max-width: 767px){.header--cta{display:none}}
 .side-nav{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100px;height:70%;max-height:750px;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;margin:0;padding:0;list-style-position:inside;z-index:10}
 .side-nav>li{position:relative;top:-5px;color:rgb(0, 0, 0);font-size:6px;cursor:pointer}
 .side-nav>li span{position:relative;top:3px;left:10px;color:rgb(0, 0, 0);font-size:14px;font-weight:300;opacity:0;visibility:hidden}.side-nav>li::before{position:absolute;top:3px;left:10px;color:#555;font-size:14px;font-weight:300}
@@ -152,7 +154,7 @@ body{background-color:#ffffff;font-size:14px;line-height:1.6;font-family:"Montse
 .about--options h3{position:absolute;bottom:-38px;left:10px;font-size:16px;text-transform:uppercase;-webkit-transition:bottom .2s ease-in-out,left .2s ease-in-out;transition:bottom .2s ease-in-out,left .2s ease-in-out}
 @media (max-width: 767px){.about--banner{height:305px}.about--banner::before{top:0;left:125px}.about--banner::after{top:35px;left:260px}.about--banner h2{margin-top:10px;font-size:44px}.about--banner h2::before{top:28px;left:168px}.about--banner h2::after{top:163px;left:163px}.about--banner img{width:315px}}
 @media (max-width: 600px){.about--banner{height:auto}.about--banner::before{left:155px}.about--banner::after{left:310px}.about--banner h2{margin-top:0;font-size:55px}.about--banner h2::before{top:43px;left:214px}.about--banner h2::after{top:205px;left:205px}.about--banner img{display:none}.about--options{display:none}}
-.contact{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("");background-position:center;background-size:cover;background-repeat:no-repeat}
+.contact{position:fixed;top:0;left:0;width:100%;height:100%;background-image:url("/assets/img/contact-visual-two.png");background-position:center;background-size:cover;background-repeat:no-repeat}
 .contact--lockup{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:900px;max-width:75%;height:100%;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;margin:0 auto}
 @media (max-width: 1180px){.contact--lockup{max-width:90%}}
 @media (max-width: 767px){.contact--lockup{-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}}
@@ -163,7 +165,9 @@ body{background-color:#ffffff;font-size:14px;line-height:1.6;font-family:"Montse
 .contact--lockup .modal--options>li{width:130px;margin:0 auto 25px auto}
 .contact--lockup .modal--options li:nth-child(1){background-color:#1769ff}
 .contact--lockup .modal--options li:nth-child(2){background-color:#ea4c89}
-.contact--lockup .modal--options li:nth-child(3){margin-bottom:0;background-color:#0f33ff;text-transform:uppercase}
+.contact--lockup .modal--options li:nth-child(3){background-color:#4c5cea}
+.contact--lockup .modal--options li:nth-child(4){background-color:#70bfff}
+.contact--lockup .modal--options li:nth-child(5){margin-bottom:0;background-color:#3c52ce}
 .contact--lockup .modal--options a{display:block;width:100%;padding:8px 0;text-decoration:none;color:rgb(0, 0, 0);font-weight:700}
 .hire{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:700px;max-width:75%;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0 auto}
 @media (max-width: 1180px){.hire{max-width:100%}}
@@ -207,3 +211,7 @@ body{background-color:#ffffff;font-size:14px;line-height:1.6;font-family:"Montse
 .outer-nav li.is-vis:nth-child(3){-webkit-transition-delay:.08s;transition-delay:.08s}
 .outer-nav li.is-vis:nth-child(4){-webkit-transition-delay:.12s;transition-delay:.12s}
 .outer-nav li.is-vis:nth-child(5){-webkit-transition-delay:.16s;transition-delay:.16s}
+.register_btn a{text-decoration: none;color: #000000;}
+.header--faq{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:left;-webkit-align-items:left;-ms-flex-align:left;align-items:left;text-decoration:none;color:rgb(0, 0, 0)}
+.header--faq p{margin:0 0 0 30px;font-size:16px;font-weight:700;text-transform:uppercase;font-family:"Montserrat",sans-serif;}
+.faq--title{text-align:center;font-family:"Montserrat",sans-serif;}
