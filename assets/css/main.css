@@ -163,11 +163,11 @@ body{background-color:#ffffff;font-size:14px;line-height:1.6;font-family:"Montse
 .contact--lockup .modal--information p{margin-top:0}
 .contact--lockup .modal--options{margin:0;padding:0;list-style:none}
 .contact--lockup .modal--options>li{width:130px;margin:0 auto 25px auto}
-.contact--lockup .modal--options li:nth-child(1){background-color:#ffffff}
-.contact--lockup .modal--options li:nth-child(2){background-color:#ffffff}
-.contact--lockup .modal--options li:nth-child(3){background-color:#ffffff}
-.contact--lockup .modal--options li:nth-child(4){background-color:#ffffff}
-.contact--lockup .modal--options li:nth-child(5){margin-bottom:0;background-color:#ffffff}
+.contact--lockup .modal--options li:nth-child(1){background-color:#ffffff;outline-color: #0c0c0c;}
+.contact--lockup .modal--options li:nth-child(2){background-color:#ffffff;outline-color: #0c0c0c;}
+.contact--lockup .modal--options li:nth-child(3){background-color:#ffffff;outline-color: #0c0c0c;}
+.contact--lockup .modal--options li:nth-child(4){background-color:#ffffff;outline-color: #0c0c0c;}
+.contact--lockup .modal--options li:nth-child(5){margin-bottom:0;background-color:#ffffff;outline-color: #0c0c0c;}
 .contact--lockup .modal--options a{display:block;width:100%;padding:8px 0;text-decoration:none;color:rgb(0, 0, 0);font-weight:700}
 .hire{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:700px;max-width:75%;height:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0 auto}
 @media (max-width: 1180px){.hire{max-width:100%}}
